@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hind Izouaghen | Artist Portfolio</title>
+
+<style>
+:root {
+    --bg: #0f0f0f;
+    --text: #ffffff;
+    --accent: #444;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+}
+
+header {
+    height: 100vh;
+    background: url('./image1.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    background: rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #111;
+    font-size: 0.9rem;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>
+        Hind Izouaghen<br>
+        <small>Painter | Agadir</small>
+    </h1>
+</header>
+
+<section>
+    <h2>About the Artist</h2>
+    <p>
+    Hind Izouaghen is a painter based in Agadir, Morocco. Coming from a deeply artistic family,
+    she developed a strong sensitivity to expression and emotion from an early age.
+    Entirely self-taught, her work blends academic precision with creative freedom.
+    </p>
+
+    <h2>Artistic Vision</h2>
+    <p>
+    Her work revolves around women empowerment, Amazigh identity, and facial expression.
+    She portrays women as strong and introspective figures, capturing depth and silent narratives.
+    </p>
+
+    <h2>Style & Influence</h2>
+    <p>
+    Inspired by classical Italian masters like Leonardo da Vinci, her work focuses on anatomy,
+    proportion, and emotional realism, combined with modern storytelling.
+    </p>
+</section>
+
+<section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="./image2.jpg" alt="Artwork">
+        <img src="./image1.jpg" alt="Portrait">
+    </div>
+</section>
+
+<section>
+    <h2>Exhibitions</h2>
+    <p>
+    • National exhibition in Agadir<br>
+    • TALWEEKEND (3 participations)<br>
+    • Exhibition in Taghazout<br>
+    • 2M TV – Dream Artist<br>
+    • Tamazight TV – Timert n Tzuri
+    </p>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>
+    📍 Agadir, Morocco<br>
+    📧 <a href="mailto:Hizouaghen@gmail.com" style="color:white;">Hizouaghen@gmail.com</a><br>
+    📞 <a href="tel:+212675131092" style="color:white;">+212675131092</a>
+    </p>
+</section>
+
+<footer>
+    <p>© 2026 Hind Izouaghen</p>
+</footer>
+
+</body>
+</html>
